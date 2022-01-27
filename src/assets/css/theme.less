@@ -1,0 +1,37 @@
+@dematic-bg: linear-gradient(to bottom right,#F8E4A9,#FAC10B);
+@base-height: 53px;
+@primary-color: #0b73fa; // 全局主色
+@link-color: #000; // 链接色
+@layout-sider-background: @dematic-bg;
+@layout-body-background: #F4F5F7;
+
+// Buttons
+@btn-border-radius-base: 6px;
+@btn-default-color: #000;
+@btn-height-base:@base-height;
+@btn-default-bg: @primary-color;
+@btn-default-border: 0;
+@btn-primary-color: #000;
+@btn-primary-bg: @primary-color;
+// Input
+@input-height-base: @base-height;
+@input-border-color: none;
+@input-hover-border-color: #F4F5F7;
+@input-placeholder-color: gray;
+
+.ant-input-affix-wrapper {
+  height: @base-height;
+  font-size: 16px;
+  .anticon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.25);
+    margin: 0 5px;
+  }
+  input {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+.ant-calendar-range-picker-input {
+  font-weight: bold;
+}
